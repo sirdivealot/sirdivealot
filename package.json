@@ -1,0 +1,16 @@
+{
+  "name": "sirdivealot",
+  "version": "1.0.0",
+  "description": "hello from the ~other~ deep ocean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-escape-sequences": "^4.0.0",
+    "fs-extra": "^6.0.1",
+    "livereload": "^0.7.0"
+  }
+}
