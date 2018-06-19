@@ -4,8 +4,12 @@ const metadata = {
 	anchor: '/blog/sipadan.html',
 }
 
+const content = `
+<p>Writing some more very feel text!</p>
+`
+
 module.exports = function(output) {
-	require('layout')(output, 'Blog', 'Sipadan', 'sipadan!')
+	require('layout')(output, 'Blog', 'Sipadan', content)
 }
 
 module.exports.metadata = metadata

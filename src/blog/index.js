@@ -1,8 +1,8 @@
 const path = require('path')
 
 const posts = [
-	require('./sipadan.js').metadata,
 	require('./howto.js').metadata,
+	require('./sipadan.js').metadata,
 ]
 
 const content = `
@@ -20,5 +20,5 @@ function build_post(post) {
 }
 
 module.exports = function(output) {
-	require('layout')(output, 'Blog', 'Visual Splendor', content)
+	require('layout')(output, 'Blog', 'Heavenly Scriptures', content)
 }
