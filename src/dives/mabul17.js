@@ -48,7 +48,7 @@ speedboat to Mabul, they let loose (like it was 1986).
 </p>
 <p>As we were fast approaching our destination the sun god fought back against
 the dark currents and shone its light on us. While our captain navigated around
-the we started looking for anything resembling the images found on the dive
+the island we started looking for anything resembling the images found on the dive
 shop's website. Soon, the words "Noble World Scuba" and "Mabul Backpackers"
 appeared on a familiar-looking platform—we had finally arrived!</p>
 
