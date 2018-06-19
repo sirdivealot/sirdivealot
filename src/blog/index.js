@@ -1,8 +1,8 @@
 const path = require('path')
 
 const posts = [
-	require('./sipadan.js').metadata,
 	require('./howto.js').metadata,
+	require('./sipadan.js').metadata,
 ]
 
 const content = `
