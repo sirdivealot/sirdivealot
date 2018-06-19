@@ -5,7 +5,7 @@ const metadata = {
 }
 
 const content = `
-<p>Sipadan is life; sipadan is feel;</p>
+<p>Writing some more very feel text!</p>
 `
 
 module.exports = function(output) {
