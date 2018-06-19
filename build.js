@@ -56,6 +56,15 @@ function compile(src, dst) {
 			res)
 }
 
+function only_newer(src, dst) {
+	try {
+		const a = fs.statSync(src)
+		const b = fs.statSync(dst)
+		return Date.parse(a.mtime) > Date.parse(b.mtime)
+	} catch (e) { }
+	return true
+}
+
 function copy(src, dst) {
 	process.stdout.write(ansi.cursor.forward(6) +
 		'> Copying ' + lpad(src + ' ...', 23))
@@ -63,7 +72,8 @@ function copy(src, dst) {
 	dst = path.join(__dirname, 'dist/', dst)
 	try {
 		fs.copySync(src, dst, {
-			overwrite: true
+			overwrite: true,
+			   filter: only_newer
 		})
 		process.stdout.write(clr("Ok", 'green'))
 	} catch (e) {
