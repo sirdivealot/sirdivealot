@@ -162,21 +162,7 @@ section.gallery { margin-top: 1rem; }
 }
 .section-header > a { text-decoration: none; }
 .section-header > a:hover { text-decoration: underline; }
-section.gallery > img {
- 	width: 100%;
- 	transition: opacity 1s ease;
-}
 
-button.load {
-	border: none;
-    font-family: 'Inconsolata', monospace;
-    display: inline-block;
-    transition: background-color 0.2s ease;
-    padding: 0.2rem;
-    font-size: 1rem;
+.g-img {
+ 	width: 100%;
 }
-button.load:hover { background: #0074D9; color: #FFF; cursor: pointer; }
-button.load:active {
-	margin-bottom: -2px;
-}
-.faded { opacity: 0; transition: opacity 0s ease !important; }

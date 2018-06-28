@@ -52,13 +52,15 @@ function compile(src, dst) {
 		res = clr("Err", 'red')
 	}
 	console.log(ansi.cursor.forward(4) + '> Compiling',
-			clr(lpad(id, 22), 'cyan'),
+			clr(lpad(id, 37), 'cyan'),
 			res)
 }
 
 function only_newer(src, dst) {
 	try {
 		const a = fs.statSync(src)
+		if (a.isDirectory()) return true
+
 		const b = fs.statSync(dst)
 		return Date.parse(a.mtime) > Date.parse(b.mtime)
 	} catch (e) { }
@@ -67,7 +69,7 @@ function only_newer(src, dst) {
 
 function copy(src, dst) {
 	process.stdout.write(ansi.cursor.forward(6) +
-		'> Copying ' + lpad(src + ' ...', 23))
+		'> Copying ' + lpad(src + ' ...', 38))
 	src = path.join(__dirname, 'src/', src)
 	dst = path.join(__dirname, 'dist/', dst)
 	try {
@@ -82,18 +84,60 @@ function copy(src, dst) {
 	console.log()
 }
 
-function build_css() {
+async function build_css() {
 	console.log(ansi.cursor.forward(4) +
 		'> Copying stylesheets ...')
 	copy('css/', 'css/')
 }
 
-function build_img() {
+async function build_img() {
 	console.log(ansi.cursor.forward(4) +
-		'> Copying images ...')
+		'> Optimizing images ...')
 
-	copy('img/', 'img/')
-	copy('img/mabul17/', 'img/mabul17/')
+	var to_optimize = []
+
+	function collect_images(src, dst) {
+		src = path.join(__dirname, 'src/', src)
+		dst = path.join(__dirname, 'dist/', dst)
+		fs.copySync(src, dst, {
+			overwrite: true,
+			   filter: (a, b) => {
+			 		if (only_newer(a, b) && path.parse(a).ext.indexOf('.jp') === 0)
+			 			to_optimize.push({src: a, dst: b})
+			 		if (path.parse(a).ext === '') return true
+			 		return false
+			   }
+		})
+	}
+
+	collect_images('img/', 'img/')
+	collect_images('img/mabul17/', 'img/mabul17/')
+
+	var imageminMozjpeg = require('imagemin-mozjpeg')()
+	var optimize = function (src, dst) {
+		var data = fs.readFileSync(src)
+		var img = path.relative(__dirname + "/src/img", src)
+		var txt = clr(lpad(img, 35), 'cyan')
+		process.stdout.write(ansi.cursor.forward(6) + '> Optimizing ' + txt)
+		return imageminMozjpeg(data)
+			.then(buf => {
+				buf = buf.length < data.length ? buf : data
+				fs.writeFileSync(dst, buf)
+				process.stdout.write(clr("Ok", 'green'))
+				console.log()
+			})
+			.catch(err => {
+				process.stdout.write(clr("Err", 'red'))
+				console.log()
+				console.error(err)
+			})
+	}
+
+	//to_optimize = to_optimize.slice(0, 10)
+	// 390
+
+	for (var i = 0; i < to_optimize.length; i++)
+		await optimize(to_optimize[i].src, to_optimize[i].dst)
 }
 
 function build_js() {
@@ -107,7 +151,7 @@ function build_pages() {
 	pages.forEach(page => compile(page.src, page.dst))
 }
 
-function build(filename) {
+async function build(filename) {
 	console.log()
 
 	if (filename && filename !== 'build.js') {
@@ -137,7 +181,7 @@ function build(filename) {
 
 		console.log()
 	} else {
-		build_img()
+		await build_img()
 		console.log()
 
 		build_css()
@@ -157,9 +201,9 @@ function build(filename) {
 	}
 }
 
-module.exports = function (filename) {
+module.exports = async function (filename) {
 	const time = Date.now()
-	build(filename)
+	await build(filename)
 
 	console.log('  Build took', clr((Date.now() - time).toString(), 'gray'), 'ms')
 }

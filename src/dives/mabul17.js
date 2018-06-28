@@ -6,8 +6,9 @@ const metadata = {
 	anchor: '/dives/mabul17.html',
 }
 
-const path = require('path')
-const fs   = require('fs')
+const path    = require('path')
+const fs      = require('fs')
+const gallery = require('partials/gallery')
 
 var folders = [
 	'day1' , 'day2' , 'day3'        , 'day4' , 'day5' ,
@@ -46,6 +47,7 @@ Anonymous, 1967). While we were <strike>robbing</strike> emptying the bank, dark
 begun to appear and now, just as we were about to jump aboard the small
 speedboat to Mabul, they let loose (like it was 1986).
 </p>
+
 <p>As we were fast approaching our destination the sun god fought back against
 the dark currents and shone its light on us. While our captain navigated around
 the island we started looking for anything resembling the images found on the dive
@@ -64,33 +66,46 @@ a chat with the friendly neighbourhood reefsharks.
 end-of-Ramadan festivities and 1 day exploring the island). We have uploaded some
 pictures from the world beneath the surface—check them out!
 </p>
-${folders.map(build_section).join('\n')}
 `
 
+
 function build_section(name) {
+	const gallery = require('partials/gallery')
 	const folder = path.join('/img', 'mabul17', name)
 	const fs_path = path.join(__dirname, '..', folder)
 	const web_path = path.join(process.env.dir, folder)
 
 	const picts = fs.readdirSync(fs_path).map(picture => {
-		const link = path.join(web_path, picture)
-		return `<img data-src="${link}"/>`
-	}).join('\n')
+		return {
+			relative: path.join(web_path, picture),
+			absolute: path.join(fs_path, picture)
+		}
+	})
 
-	const load = `<button class="load">load images</button>`
-
-	return `<section class="gallery">
-		<div class="section-header">
-			<a name="${name}" href="#${name}">#</a>
-			<h2>${name}</h2>
-		</div>
-		${load}
-		${picts}
-	</section>`
+	return {
+		name: name,
+		pics: picts
+	}
 }
 
 module.exports = function(output) {
-	require('layout')(output, 'Dives', metadata.title, content)
+	const galleries = folders
+		.map(build_section)
+		.map(section => {
+			const name = section.name
+			const pics = section.pics
+			return `<section class="">
+				<div class="section-header">
+					<a name="${name}" href="#${name}">#</a>
+					<h2>${name}</h2>
+				</div>
+				${gallery(pics)}
+			</section>`
+		})
+		.join('\n')
+
+	require('layout/gallery')(output, 'Dives', metadata.title,
+		content + galleries)
 }
 
 module.exports.metadata = metadata
