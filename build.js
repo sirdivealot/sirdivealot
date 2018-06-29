@@ -97,21 +97,31 @@ async function build_img() {
 	var to_optimize = []
 
 	function collect_images(src, dst) {
-		src = path.join(__dirname, 'src/', src)
-		dst = path.join(__dirname, 'dist/', dst)
-		fs.copySync(src, dst, {
-			overwrite: true,
-			   filter: (a, b) => {
-			 		if (only_newer(a, b) && path.parse(a).ext.indexOf('.jp') === 0)
-			 			to_optimize.push({src: a, dst: b})
-			 		if (path.parse(a).ext === '') return true
-			 		return false
-			   }
-		})
+		var src_abs = path.join(__dirname, 'src/', src)
+		var dst_abs = path.join(__dirname, 'dist/', dst)
+		var input = fs.readdirSync(src_abs)
+
+		var images = input.filter(file => {
+			return fs.statSync(path.join(src_abs, file)).isFile()
+		}).map(file => ({
+			src: path.join(src_abs, file),
+			dst: path.join(dst_abs, file)
+		})).filter(file => only_newer(file.src, file.dst))
+
+		var folders = input.filter(file => {
+			return fs.statSync(path.join(src_abs, file)).isDirectory()
+		}).map(file => ({
+			src: path.join(src, file),
+			dst: path.join(dst, file)
+		}))
+
+		for (var i = 0; i < folders.length; i++)
+			collect_images(folders[i].src, folders[i].dst)
+
+		to_optimize = to_optimize.concat(images)
 	}
 
 	collect_images('img/', 'img/')
-	collect_images('img/mabul17/', 'img/mabul17/')
 
 	await optimizer(to_optimize)
 }

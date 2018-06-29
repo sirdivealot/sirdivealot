@@ -10,6 +10,7 @@ var optimize = function (src, dst) {
 	return imageminMozjpeg(data)
 		.then(buf => {
 			buf = buf.length < data.length ? buf : data
+			fs.ensureDirSync(path.dirname(dst))
 			fs.writeFileSync(dst, buf)
 			console.log('      > ' + img)
 		})
