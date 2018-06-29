@@ -68,7 +68,8 @@ function write_status(file) {
     if (file) {
         str = "> File " +
             clr(file, 'cyan') +
-            " triggered rebuild at " + (new Date()) + "\n"
+            " triggered rebuild on " +
+            (new Date()).toISOString() + "\n"
         process.stdout.write(ansi.cursor.down(1))
         process.stdout.write(ansi.cursor.forward(2))
         process.stdout.write(str)

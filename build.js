@@ -3,6 +3,9 @@ const ansi = require('ansi-escape-sequences')
 const path = require('path')
 const  DEV = process.env["NODE_ENV"] !== "production"
 
+const   cluster = require('cluster')
+const optimizer = require('./optimize')
+
 process.env.dev = DEV
 process.env.dir = DEV
 	? "file://" + path.join(__dirname, 'dist')
@@ -91,9 +94,6 @@ async function build_css() {
 }
 
 async function build_img() {
-	console.log(ansi.cursor.forward(4) +
-		'> Optimizing images ...')
-
 	var to_optimize = []
 
 	function collect_images(src, dst) {
@@ -113,31 +113,7 @@ async function build_img() {
 	collect_images('img/', 'img/')
 	collect_images('img/mabul17/', 'img/mabul17/')
 
-	var imageminMozjpeg = require('imagemin-mozjpeg')()
-	var optimize = function (src, dst) {
-		var data = fs.readFileSync(src)
-		var img = path.relative(__dirname + "/src/img", src)
-		var txt = clr(lpad(img, 35), 'cyan')
-		process.stdout.write(ansi.cursor.forward(6) + '> Optimizing ' + txt)
-		return imageminMozjpeg(data)
-			.then(buf => {
-				buf = buf.length < data.length ? buf : data
-				fs.writeFileSync(dst, buf)
-				process.stdout.write(clr("Ok", 'green'))
-				console.log()
-			})
-			.catch(err => {
-				process.stdout.write(clr("Err", 'red'))
-				console.log()
-				console.error(err)
-			})
-	}
-
-	//to_optimize = to_optimize.slice(0, 10)
-	// 390
-
-	for (var i = 0; i < to_optimize.length; i++)
-		await optimize(to_optimize[i].src, to_optimize[i].dst)
+	await optimizer(to_optimize)
 }
 
 function build_js() {
@@ -202,6 +178,8 @@ async function build(filename) {
 }
 
 module.exports = async function (filename) {
+	if (cluster.isWorker) return
+
 	const time = Date.now()
 	await build(filename)
 
