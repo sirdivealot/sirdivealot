@@ -77,6 +77,7 @@ function write_status(file) {
 }
 
 var id = 0
+var server
 function rebuild(evt, fname) {
     if (evt !== 'change') return
     if (id !== 0) return
@@ -90,15 +91,21 @@ function rebuild(evt, fname) {
     }, 100)
 }
 
-fs.watch('./src', {
-	persistent: true,
-	 recursive: true
-}, rebuild)
+const cluster = require('cluster')
+if (cluster.isMaster) {
 
-fs.watch('./build.js', rebuild)
+    fs.watch('./src', {
+    	persistent: true,
+    	 recursive: true
+    }, rebuild)
 
-const server = lr.createServer()
-server.watch(path.join(__dirname, "dist"))
+    fs.watch('./build.js', rebuild)
 
-write_status()
+    server = lr.createServer()
+    server.watch(path.join(__dirname, "dist"))
+
+    write_status()
+
+}
+
 require('./build.js')()

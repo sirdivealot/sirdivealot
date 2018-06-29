@@ -165,4 +165,10 @@ section.gallery { margin-top: 1rem; }
 
 .g-img {
  	width: 100%;
+ 	opacity: 100;
+ 	transition: opacity 500ms ease;
+}
+
+.lazy {
+	opacity: 0;
 }
