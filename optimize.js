@@ -2,7 +2,14 @@ var fs = require('fs-extra')
 var path = require('path')
 var cluster = require('cluster')
 var cpus = require('os').cpus().length
-var imageminMozjpeg = require('imagemin-mozjpeg')()
+var imageminMozjpeg = require('imagemin-mozjpeg')({
+	progressive: true,
+	quality: 80,
+	doScanOpt: 1,
+	trellis: true,
+	trellisDC: true,
+	dct: "int"
+})
 
 var optimize = function (src, dst) {
 	var data = fs.readFileSync(src)

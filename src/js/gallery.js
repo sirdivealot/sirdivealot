@@ -202,40 +202,42 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 document.addEventListener("DOMContentLoaded", function() {
-  var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
-  var active = false;
+    var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+    var active = false;
 
-  var lazyLoad = function() {
-    if (active === false) {
-      active = true;
+    var lazyLoad = function() {
+        if (active === false) {
+            active = true;
 
-      setTimeout(function() {
-        lazyImages.forEach(function(lazyImage) {
-          if ((lazyImage.getBoundingClientRect().top <= window.innerHeight && lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyImage).display !== "none") {
-            lazyImage.src = lazyImage.dataset.src;
-            lazyImage.classList.remove("lazy");
+            setTimeout(function() {
+                for (var i = 0; i < lazyImages.length; i++) {
+                    var lazyImage = lazyImages[i]
+                    var    bounds = lazyImage.getBoundingClientRect()
 
-            lazyImages = lazyImages.filter(function(image) {
-              return image !== lazyImage;
-            });
+                    if (bounds.top <= window.innerHeight && bounds.bottom >= 0) {
+                        lazyImage.src = lazyImage.dataset.src;
+                        lazyImage.classList.remove("lazy");
 
-            if (lazyImages.length === 0) {
-              document.removeEventListener("scroll", lazyLoad);
-              window.removeEventListener("resize", lazyLoad);
-              window.removeEventListener("orientationchange", lazyLoad);
-            }
-          }
-        });
+                        lazyImages[i] = lazyImages[lazyImages.length - 1]
+                        lazyImages.length -= 1
+                        i -= 1
 
-        active = false;
-      }, 200);
-    }
-  };
+                        if (lazyImages.length === 0) {
+                            document.removeEventListener("scroll", lazyLoad);
+                            window.removeEventListener("resize", lazyLoad);
+                            window.removeEventListener("orientationchange", lazyLoad);
+                        }
+                    }
+                }
+                active = false;
+            }, 200);
+        }
+    };
 
-  document.addEventListener("scroll", lazyLoad);
-  window.addEventListener("resize", lazyLoad);
-  window.addEventListener("orientationchange", lazyLoad);
+    document.addEventListener("scroll", lazyLoad);
+    window.addEventListener("resize", lazyLoad);
+    window.addEventListener("orientationchange", lazyLoad);
+
+    // execute above function
+    initPhotoSwipeFromDOM('.gallery');
 });
-
-// execute above function
-initPhotoSwipeFromDOM('.gallery');
