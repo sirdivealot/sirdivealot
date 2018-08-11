@@ -2,21 +2,21 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "sir dive alot",
     "description": "",
-    "home_page_url": "https://sirdivealot.github.io/sirdivealot",
-    "feed_url": "https://sirdivealot.github.io/sirdivealot/feed.json",
+    "home_page_url": "https://sirdivealot.com",
+    "feed_url": "https://sirdivealot.com/feed.json",
     "user_comment": "",
-    "icon": "https://sirdivealot.github.io/sirdivealot/media/website/logo2.png",
+    "icon": "https://sirdivealot.com/media/website/logo2.png",
     "author": {
         "name": "Axel Smeets"
     },
     "items": [
         {
-            "id": "https://sirdivealot.github.io/sirdivealot/Mabul-2017.html",
-            "url": "https://sirdivealot.github.io/sirdivealot/Mabul-2017.html",
+            "id": "https://sirdivealot.com/Mabul-2017.html",
+            "url": "https://sirdivealot.com/Mabul-2017.html",
             "title": "Mabul 2017",
             "summary": "This trip was very good and we are very likely coming back&hellip;",
             "content_html": "This trip was very good and we are very likely coming back to the beautiful island of Pulau Mabul.",
-            "image": "https://sirdivealot.github.io/sirdivealot/media/posts/2/header.jpg",
+            "image": "https://sirdivealot.com/media/posts/2/header.jpg",
             "author": {
                 "name": "Axel Smeets"
             },
@@ -28,12 +28,12 @@
             "date_modified": "2018-08-11T22:06:48+02:00"
         },
         {
-            "id": "https://sirdivealot.github.io/sirdivealot/mimic-octupus.html",
-            "url": "https://sirdivealot.github.io/sirdivealot/mimic-octupus.html",
+            "id": "https://sirdivealot.com/mimic-octupus.html",
+            "url": "https://sirdivealot.com/mimic-octupus.html",
             "title": "Mimic octupus!",
             "summary": "One down, one million cool left...",
             "content_html": "One down, one million cool left...",
-            "image": "https://sirdivealot.github.io/sirdivealot/media/posts/1/mimic.jpg",
+            "image": "https://sirdivealot.com/media/posts/1/mimic.jpg",
             "author": {
                 "name": "Axel Smeets"
             },

@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>sir dive alot</title>
-    <link href="https://sirdivealot.github.io/sirdivealot/feed.xml" rel="self" />
-    <link href="https://sirdivealot.github.io/sirdivealot" />
-    <updated>2018-08-11T23:00:09+02:00</updated>
+    <link href="https://sirdivealot.com/feed.xml" rel="self" />
+    <link href="https://sirdivealot.com" />
+    <updated>2018-08-11T23:03:08+02:00</updated>
     <author>
         <name>Axel Smeets</name>
     </author>
-    <id>https://sirdivealot.github.io/sirdivealot</id>
+    <id>https://sirdivealot.com</id>
 
     <entry>
         <title>Mabul 2017</title>
         <author>
             <name>Axel Smeets</name>
         </author>
-        <link href="https://sirdivealot.github.io/sirdivealot/Mabul-2017.html"/>
-        <id>https://sirdivealot.github.io/sirdivealot/Mabul-2017.html</id>
+        <link href="https://sirdivealot.com/Mabul-2017.html"/>
+        <id>https://sirdivealot.com/Mabul-2017.html</id>
             <category term="trips"/>
             <category term="review"/>
 
         <updated>2018-08-11T22:06:48+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sirdivealot.github.io/sirdivealot/media/posts/2/header.jpg" alt="" />
+                        <img src="https://sirdivealot.com/media/posts/2/header.jpg" alt="" />
                     This trip was very good and we are very likely coming back&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://sirdivealot.github.io/sirdivealot/media/posts/2/header.jpg" alt="" />
+                    <img src="https://sirdivealot.com/media/posts/2/header.jpg" alt="" />
                 This trip was very good and we are very likely coming back to the beautiful island of Pulau Mabul.
             ]]>
         </content>
@@ -38,20 +38,20 @@
         <author>
             <name>Axel Smeets</name>
         </author>
-        <link href="https://sirdivealot.github.io/sirdivealot/mimic-octupus.html"/>
-        <id>https://sirdivealot.github.io/sirdivealot/mimic-octupus.html</id>
+        <link href="https://sirdivealot.com/mimic-octupus.html"/>
+        <id>https://sirdivealot.com/mimic-octupus.html</id>
             <category term="veryfeel"/>
 
         <updated>2018-08-11T22:05:26+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sirdivealot.github.io/sirdivealot/media/posts/1/mimic.jpg" alt="" />
+                        <img src="https://sirdivealot.com/media/posts/1/mimic.jpg" alt="" />
                     One down, one million cool left...
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://sirdivealot.github.io/sirdivealot/media/posts/1/mimic.jpg" alt="" />
+                    <img src="https://sirdivealot.com/media/posts/1/mimic.jpg" alt="" />
                 One down, one million cool left...
             ]]>
         </content>
