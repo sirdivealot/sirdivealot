@@ -3,7 +3,7 @@
     <title>sir dive alot</title>
     <link href="https://sirdivealot.com/feed.xml" rel="self" />
     <link href="https://sirdivealot.com" />
-    <updated>2018-08-11T23:03:08+02:00</updated>
+    <updated>2018-08-11T23:11:24+02:00</updated>
     <author>
         <name>Axel Smeets</name>
     </author>
@@ -14,12 +14,12 @@
         <author>
             <name>Axel Smeets</name>
         </author>
-        <link href="https://sirdivealot.com/Mabul-2017.html"/>
-        <id>https://sirdivealot.com/Mabul-2017.html</id>
+        <link href="https://sirdivealot.com/mabul-2017.html"/>
+        <id>https://sirdivealot.com/mabul-2017.html</id>
             <category term="trips"/>
             <category term="review"/>
 
-        <updated>2018-08-11T22:06:48+02:00</updated>
+        <updated>2018-08-11T23:11:13+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sirdivealot.com/media/posts/2/header.jpg" alt="" />
@@ -29,7 +29,19 @@
         <content type="html">
             <![CDATA[
                     <img src="https://sirdivealot.com/media/posts/2/header.jpg" alt="" />
-                This trip was very good and we are very likely coming back to the beautiful island of Pulau Mabul.
+                <p>This trip was very good and we are very likely coming back to the beautiful island of Pulau Mabul.</p>
+<div class="gallery"   >
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_1504.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_1504-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_1092.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_1092-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_1105.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_1105-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_0782.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_0782-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_0778.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_0778-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3182.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3182-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3299.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3299-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3646.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3646-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3675.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3675-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_4171.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_4171-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+</div>
             ]]>
         </content>
     </entry>
