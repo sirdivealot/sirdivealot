@@ -3,12 +3,36 @@
     <title>sir dive alot</title>
     <link href="https://sirdivealot.com/feed.xml" rel="self" />
     <link href="https://sirdivealot.com" />
-    <updated>2018-08-12T00:32:21+02:00</updated>
+    <updated>2018-08-12T00:38:36+02:00</updated>
     <author>
         <name>Axel Smeets</name>
     </author>
     <id>https://sirdivealot.com</id>
 
+    <entry>
+        <title>The Pond</title>
+        <author>
+            <name>Kristoffer Björnberg</name>
+        </author>
+        <link href="https://sirdivealot.com/The-Pond.html"/>
+        <id>https://sirdivealot.com/The-Pond.html</id>
+            <category term="trips"/>
+
+        <updated>2018-08-12T00:38:24+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://sirdivealot.com/media/posts/6/" alt="" />
+                    rest in peace, european treefrog, you deserved better... 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://sirdivealot.com/media/posts/6/" alt="" />
+                <p>rest in peace, european treefrog, you deserved better...</p>
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SuY-4OGNJ6w?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Mabul 2017</title>
         <author>
