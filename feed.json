@@ -11,8 +11,8 @@
     },
     "items": [
         {
-            "id": "https://sirdivealot.com/The-Pond.html",
-            "url": "https://sirdivealot.com/The-Pond.html",
+            "id": "https://sirdivealot.com/the-pond.html",
+            "url": "https://sirdivealot.com/the-pond.html",
             "title": "The Pond",
             "summary": "rest in peace, european treefrog, you deserved better... ",
             "content_html": "<p>rest in peace, european treefrog, you deserved better...</p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/SuY-4OGNJ6w?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
@@ -24,7 +24,7 @@
                    "trips"
             ],
             "date_published": "2018-08-12T00:38:24+02:00",
-            "date_modified": "2018-08-12T00:38:24+02:00"
+            "date_modified": "2018-08-12T13:04:56+02:00"
         },
         {
             "id": "https://sirdivealot.com/mabul-2017.html",
