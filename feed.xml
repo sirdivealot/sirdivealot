@@ -3,12 +3,36 @@
     <title>sir dive alot</title>
     <link href="https://sirdivealot.com/feed.xml" rel="self" />
     <link href="https://sirdivealot.com" />
-    <updated>2018-08-12T13:07:40+02:00</updated>
+    <updated>2018-09-24T20:37:52+02:00</updated>
     <author>
         <name>Axel Smeets</name>
     </author>
     <id>https://sirdivealot.com</id>
 
+    <entry>
+        <title>Into The Blue</title>
+        <author>
+            <name>Axel Smeets</name>
+        </author>
+        <link href="https://sirdivealot.com/into-the-blue.html"/>
+        <id>https://sirdivealot.com/into-the-blue.html</id>
+            <category term="veryfeel"/>
+
+        <updated>2018-09-24T20:28:31+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://sirdivealot.com/media/posts/7/IMG_3523.jpeg" alt="" />
+                    Instead of spending my weekend working on my Master Thesis I tried&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://sirdivealot.com/media/posts/7/IMG_3523.jpeg" alt="" />
+                <p>Instead of spending my weekend working on my Master Thesis I tried to learn the ways of Davinci Resolve color grading. The result, a short video:</p>
+<figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/Be1rlmnnOrE" allowfullscreen="allowfullscreen" ></iframe></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Pond</title>
         <author>

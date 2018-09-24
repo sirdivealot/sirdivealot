@@ -11,6 +11,22 @@
     },
     "items": [
         {
+            "id": "https://sirdivealot.com/into-the-blue.html",
+            "url": "https://sirdivealot.com/into-the-blue.html",
+            "title": "Into The Blue",
+            "summary": "Instead of spending my weekend working on my Master Thesis I tried&hellip;",
+            "content_html": "<p>Instead of spending my weekend working on my Master Thesis I tried to learn the ways of Davinci Resolve color grading. The result, a short video:</p>\n<figure class=\"post__video\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/Be1rlmnnOrE\" allowfullscreen=\"allowfullscreen\" ></iframe></figure>",
+            "image": "https://sirdivealot.com/media/posts/7/IMG_3523.jpeg",
+            "author": {
+                "name": "Axel Smeets"
+            },
+            "tags": [
+                   "veryfeel"
+            ],
+            "date_published": "2018-09-24T20:28:31+02:00",
+            "date_modified": "2018-09-24T20:28:31+02:00"
+        },
+        {
             "id": "https://sirdivealot.com/the-pond.html",
             "url": "https://sirdivealot.com/the-pond.html",
             "title": "The Pond",
