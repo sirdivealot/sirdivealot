@@ -3,14 +3,38 @@
     <title>sir dive alot</title>
     <link href="https://sirdivealot.com/feed.xml" rel="self" />
     <link href="https://sirdivealot.com" />
-    <updated>2018-10-18T22:25:24+02:00</updated>
+    <updated>2018-10-18T22:28:14+02:00</updated>
     <author>
         <name>Axel Smeets</name>
     </author>
     <id>https://sirdivealot.com</id>
 
     <entry>
-        <title>I Make Website</title>
+        <title>The Pond</title>
+        <author>
+            <name>Kristoffer Björnberg</name>
+        </author>
+        <link href="https://sirdivealot.com/the-pond.html"/>
+        <id>https://sirdivealot.com/the-pond.html</id>
+            <category term="trips"/>
+
+        <updated>2018-10-18T22:26:22+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://sirdivealot.com/media/posts/6/" alt="" />
+                    SOON IN A DIGITALFOTO.DK MAGAZINE NEAR YOU 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://sirdivealot.com/media/posts/6/" alt="" />
+                <p>SOON IN A DIGITALFOTO.DK MAGAZINE NEAR YOU</p>
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SuY-4OGNJ6w?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Tulamben 2018</title>
         <author>
             <name>Kristoffer Björnberg</name>
         </author>
@@ -19,17 +43,17 @@
             <category term="veryfeel"/>
             <category term="rip"/>
 
-        <updated>2018-09-24T21:07:50+02:00</updated>
+        <updated>2018-10-18T22:28:08+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sirdivealot.com/media/posts/8/" alt="" />
-                    hello
+                    Hello, this is Kristof reporting in from Tulamben, Bali. I make bubbles&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://sirdivealot.com/media/posts/8/" alt="" />
-                <p>hello</p>
+                <p>Hello, this is Kristof reporting in from Tulamben, Bali. I make bubbles no troubles and take only pictures.</p>
 <div class="gallery"   >
 <figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp.jpg" ><img src="https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
 <figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/8/gallery/butterflyfishes.jpg" ><img src="https://sirdivealot.com/media/posts/8/gallery/butterflyfishes-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
@@ -59,30 +83,6 @@
                     <img src="https://sirdivealot.com/media/posts/7/IMG_3523.jpg" alt="" />
                 <p>Instead of spending my weekend working on my Master Thesis I tried to learn the ways of Davinci Resolve color grading. The result, a short video:</p>
 <figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/Be1rlmnnOrE" allowfullscreen="allowfullscreen" ></iframe></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>The Pond</title>
-        <author>
-            <name>Kristoffer Björnberg</name>
-        </author>
-        <link href="https://sirdivealot.com/the-pond.html"/>
-        <id>https://sirdivealot.com/the-pond.html</id>
-            <category term="trips"/>
-
-        <updated>2018-08-12T13:04:56+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://sirdivealot.com/media/posts/6/" alt="" />
-                    rest in peace, european treefrog, you deserved better... 
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://sirdivealot.com/media/posts/6/" alt="" />
-                <p>rest in peace, european treefrog, you deserved better...</p>
-<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SuY-4OGNJ6w?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p>
             ]]>
         </content>
     </entry>
