@@ -3,12 +3,41 @@
     <title>sir dive alot</title>
     <link href="https://sirdivealot.com/feed.xml" rel="self" />
     <link href="https://sirdivealot.com" />
-    <updated>2018-09-24T20:46:59+02:00</updated>
+    <updated>2018-10-18T22:25:24+02:00</updated>
     <author>
         <name>Axel Smeets</name>
     </author>
     <id>https://sirdivealot.com</id>
 
+    <entry>
+        <title>I Make Website</title>
+        <author>
+            <name>Kristoffer Björnberg</name>
+        </author>
+        <link href="https://sirdivealot.com/i-make-website.html"/>
+        <id>https://sirdivealot.com/i-make-website.html</id>
+            <category term="veryfeel"/>
+            <category term="rip"/>
+
+        <updated>2018-09-24T21:07:50+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://sirdivealot.com/media/posts/8/" alt="" />
+                    hello
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://sirdivealot.com/media/posts/8/" alt="" />
+                <p>hello</p>
+<div class="gallery"   >
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp.jpg" ><img src="https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/8/gallery/butterflyfishes.jpg" ><img src="https://sirdivealot.com/media/posts/8/gallery/butterflyfishes-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/8/gallery/anemonefishsoftcorall.jpg" ><img src="https://sirdivealot.com/media/posts/8/gallery/anemonefishsoftcorall-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Into The Blue</title>
         <author>
