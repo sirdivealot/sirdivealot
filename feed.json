@@ -11,28 +11,12 @@
     },
     "items": [
         {
-            "id": "https://sirdivealot.com/the-pond.html",
-            "url": "https://sirdivealot.com/the-pond.html",
-            "title": "The Pond",
-            "summary": "SOON IN A DIGITALFOTO.DK MAGAZINE NEAR YOU ",
-            "content_html": "<p>SOON IN A DIGITALFOTO.DK MAGAZINE NEAR YOU</p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/SuY-4OGNJ6w?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
-            "image": "https://sirdivealot.com/media/posts/6/",
-            "author": {
-                "name": "Kristoffer Björnberg"
-            },
-            "tags": [
-                   "trips"
-            ],
-            "date_published": "2018-10-18T22:26:22+02:00",
-            "date_modified": "2018-10-18T22:26:22+02:00"
-        },
-        {
             "id": "https://sirdivealot.com/i-make-website.html",
             "url": "https://sirdivealot.com/i-make-website.html",
             "title": "Tulamben 2018",
             "summary": "Hello, this is Kristof reporting in from Tulamben, Bali. I make bubbles&hellip;",
-            "content_html": "<p>Hello, this is Kristof reporting in from Tulamben, Bali. I make bubbles no troubles and take only pictures.</p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp.jpg\" ><img src=\"https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/8/gallery/butterflyfishes.jpg\" ><img src=\"https://sirdivealot.com/media/posts/8/gallery/butterflyfishes-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/8/gallery/anemonefishsoftcorall.jpg\" ><img src=\"https://sirdivealot.com/media/posts/8/gallery/anemonefishsoftcorall-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n</div>",
-            "image": "https://sirdivealot.com/media/posts/8/IMG_6562.jpg",
+            "content_html": "<p>Hello, this is Kristof reporting in from Tulamben, Bali. I make bubbles no troubles and take only pictures.</p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp.jpg\" ><img src=\"https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/8/gallery/anemonefishsoftcorall.jpg\" ><img src=\"https://sirdivealot.com/media/posts/8/gallery/anemonefishsoftcorall-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n</div>",
+            "image": "https://sirdivealot.com/media/posts/8/butterflyfishes.jpg",
             "author": {
                 "name": "Kristoffer Björnberg"
             },
@@ -41,7 +25,7 @@
                    "rip"
             ],
             "date_published": "2018-09-24T20:52:04+02:00",
-            "date_modified": "2018-10-18T22:47:59+02:00"
+            "date_modified": "2018-12-21T20:33:46+01:00"
         },
         {
             "id": "https://sirdivealot.com/into-the-blue.html",
