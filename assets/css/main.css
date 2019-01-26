@@ -600,10 +600,14 @@ textarea {
 .logo {
   color: #111111 !important;
   font-family: "Playfair Display", serif;
-  font-size: 1rem; }
+  font-size: 1rem;
+  display: flex;
+  align-items: center; }
+.logo > .space { margin-left: 1rem; }
   @media all and (min-width: 56.25em) {
     .logo {
       font-size: 1.4rem; } }
+}
 
 .navbar__menu {
   margin: 0;
