@@ -2,21 +2,21 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "sir dive alot",
     "description": "",
-    "home_page_url": "https://sirdivealot.github.io",
-    "feed_url": "https://sirdivealot.github.io/feed.json",
+    "home_page_url": "https://sirdivealot.com",
+    "feed_url": "https://sirdivealot.com/feed.json",
     "user_comment": "",
-    "icon": "https://sirdivealot.github.io/media/website/logo2.png",
+    "icon": "https://sirdivealot.com/media/website/logo2.png",
     "author": {
         "name": "Axel"
     },
     "items": [
         {
-            "id": "https://sirdivealot.github.io/i-make-website.html",
-            "url": "https://sirdivealot.github.io/i-make-website.html",
+            "id": "https://sirdivealot.com/i-make-website.html",
+            "url": "https://sirdivealot.com/i-make-website.html",
             "title": "Tulamben 2018",
             "summary": "Hello, this is Kristof reporting in from Tulamben, Bali. I make bubbles&hellip;",
-            "content_html": "<blockquote>\n<p>Hello, this is Kristof reporting in from Tulamben, Bali. I make bubbles no troubles and take only pictures.</p>\n</blockquote>\n<p class=\"dropcap\">This trip actually started in Pulau Weh, Sumatra, but after a couple of weeks we needed more macro, so we contacted the wonderful Aqua Dive Paradise over on Tulamben and after a few days we took the flight to Bali.</p>\n<p>We did all diving with ADP. </p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/8/gallery/2wirecoralshrimp.jpg\" ><img src=\"https://sirdivealot.github.io/media/posts/8/gallery/2wirecoralshrimp-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/8/gallery/anemonefishsoftcorall.jpg\" ><img src=\"https://sirdivealot.github.io/media/posts/8/gallery/anemonefishsoftcorall-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n</div>",
-            "image": "https://sirdivealot.github.io/media/posts/8/butterflyfishes.jpg",
+            "content_html": "<blockquote>\n<p>Hello, this is Kristof reporting in from Tulamben, Bali. I make bubbles no troubles and take only pictures.</p>\n</blockquote>\n<p class=\"dropcap\">This trip actually started in Pulau Weh, Sumatra, but after a couple of weeks we needed more macro, so we contacted the wonderful Aqua Dive Paradise over on Tulamben and after a few days we took the flight to Bali.</p>\n<p>We did all diving with ADP. </p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp.jpg\" ><img src=\"https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/8/gallery/anemonefishsoftcorall.jpg\" ><img src=\"https://sirdivealot.com/media/posts/8/gallery/anemonefishsoftcorall-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n</div>",
+            "image": "https://sirdivealot.com/media/posts/8/butterflyfishes.jpg",
             "author": {
                 "name": "Kristoffer"
             },
@@ -27,12 +27,12 @@
             "date_modified": "2019-01-27T00:24:57+01:00"
         },
         {
-            "id": "https://sirdivealot.github.io/into-the-blue.html",
-            "url": "https://sirdivealot.github.io/into-the-blue.html",
+            "id": "https://sirdivealot.com/into-the-blue.html",
+            "url": "https://sirdivealot.com/into-the-blue.html",
             "title": "Into The Blue",
             "summary": "Instead of spending my weekend working on my Master Thesis I tried&hellip;",
             "content_html": "<p>Instead of spending my weekend working on my Master Thesis I tried to learn the ways of Davinci Resolve color grading. The result, a short video:</p>\n<figure class=\"post__video\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/Be1rlmnnOrE\" allowfullscreen=\"allowfullscreen\" ></iframe></figure>",
-            "image": "https://sirdivealot.github.io/media/posts/7/IMG_3523.jpg",
+            "image": "https://sirdivealot.com/media/posts/7/IMG_3523.jpg",
             "author": {
                 "name": "Axel"
             },
@@ -43,12 +43,12 @@
             "date_modified": "2018-09-24T20:46:53+02:00"
         },
         {
-            "id": "https://sirdivealot.github.io/mabul-2017.html",
-            "url": "https://sirdivealot.github.io/mabul-2017.html",
+            "id": "https://sirdivealot.com/mabul-2017.html",
+            "url": "https://sirdivealot.com/mabul-2017.html",
             "title": "Mabul 2017",
             "summary": "This trip to Mabul was very good and we are very likely&hellip;",
-            "content_html": "<p class=\"dropcap\">This trip to Mabul was very good and we are very likely coming back to the beautiful island of Pulau Mabul. We stayed and did all our diving with Mabul Backpackers - very affordable, decent food and good guides!</p>\n<p class=\"align-center\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/a2ugkHw2p2k\" allowfullscreen=\"allowfullscreen\" ></iframe></p>\n<p>Most of our diving was done around Pulau Mabul, with some day-trips to Kapalai, and of course Sipadan. During our 3-week stay we booked 5 days of Sipadan diving. It was awesome and we are still very excited about all the footage and photographs we managed to capture. </p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_0782.jpeg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_0782-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_0788.jpg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_0788-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_0778.jpeg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_0778-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_1092.jpeg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_1092-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_1286.jpg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_1286-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3538.jpg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3538-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3299.jpeg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3299-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3646.jpeg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3646-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_4171.jpeg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_4171-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3018.jpg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3018-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3871.jpg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3871-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_1706.jpg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_1706-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3544.jpg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3544-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3611.jpg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3611-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3226.jpg\" ><img src=\"https://sirdivealot.github.io/media/posts/2/gallery/IMG_3226-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n</div>",
-            "image": "https://sirdivealot.github.io/media/posts/2/header.jpg",
+            "content_html": "<p class=\"dropcap\">This trip to Mabul was very good and we are very likely coming back to the beautiful island of Pulau Mabul. We stayed and did all our diving with Mabul Backpackers - very affordable, decent food and good guides!</p>\n<p class=\"align-center\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/a2ugkHw2p2k\" allowfullscreen=\"allowfullscreen\" ></iframe></p>\n<p>Most of our diving was done around Pulau Mabul, with some day-trips to Kapalai, and of course Sipadan. During our 3-week stay we booked 5 days of Sipadan diving. It was awesome and we are still very excited about all the footage and photographs we managed to capture. </p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_0782.jpeg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_0782-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_0788.jpg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_0788-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_0778.jpeg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_0778-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_1092.jpeg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_1092-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_1286.jpg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_1286-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3538.jpg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3538-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3299.jpeg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3299-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3646.jpeg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3646-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_4171.jpeg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_4171-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3018.jpg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3018-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3871.jpg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3871-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_1706.jpg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_1706-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3544.jpg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3544-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3611.jpg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3611-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3226.jpg\" ><img src=\"https://sirdivealot.com/media/posts/2/gallery/IMG_3226-thumbnail.jpg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n</div>",
+            "image": "https://sirdivealot.com/media/posts/2/header.jpg",
             "author": {
                 "name": "Axel"
             },
@@ -59,12 +59,12 @@
             "date_modified": "2019-01-27T00:47:16+01:00"
         },
         {
-            "id": "https://sirdivealot.github.io/mimic-octupus.html",
-            "url": "https://sirdivealot.github.io/mimic-octupus.html",
+            "id": "https://sirdivealot.com/mimic-octupus.html",
+            "url": "https://sirdivealot.com/mimic-octupus.html",
             "title": "Mimic octupus!",
             "summary": "Finally found it!",
             "content_html": "Finally found it!",
-            "image": "https://sirdivealot.github.io/media/posts/1/mimic.jpg",
+            "image": "https://sirdivealot.com/media/posts/1/mimic.jpg",
             "author": {
                 "name": "Axel"
             },

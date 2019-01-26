@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>sir dive alot</title>
-    <link href="https://sirdivealot.github.io/feed.xml" rel="self" />
-    <link href="https://sirdivealot.github.io" />
-    <updated>2019-01-27T00:54:11+01:00</updated>
+    <link href="https://sirdivealot.com/feed.xml" rel="self" />
+    <link href="https://sirdivealot.com" />
+    <updated>2019-01-27T00:56:32+01:00</updated>
     <author>
         <name>Axel</name>
     </author>
-    <id>https://sirdivealot.github.io</id>
+    <id>https://sirdivealot.com</id>
 
     <entry>
         <title>Tulamben 2018</title>
         <author>
             <name>Kristoffer</name>
         </author>
-        <link href="https://sirdivealot.github.io/i-make-website.html"/>
-        <id>https://sirdivealot.github.io/i-make-website.html</id>
+        <link href="https://sirdivealot.com/i-make-website.html"/>
+        <id>https://sirdivealot.com/i-make-website.html</id>
             <category term="veryfeel"/>
 
         <updated>2019-01-27T00:24:57+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sirdivealot.github.io/media/posts/8/butterflyfishes.jpg" alt="" />
+                        <img src="https://sirdivealot.com/media/posts/8/butterflyfishes.jpg" alt="" />
                     Hello, this is Kristof reporting in from Tulamben, Bali. I make bubbles&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://sirdivealot.github.io/media/posts/8/butterflyfishes.jpg" alt="" />
+                    <img src="https://sirdivealot.com/media/posts/8/butterflyfishes.jpg" alt="" />
                 <blockquote>
 <p>Hello, this is Kristof reporting in from Tulamben, Bali. I make bubbles no troubles and take only pictures.</p>
 </blockquote>
 <p class="dropcap">This trip actually started in Pulau Weh, Sumatra, but after a couple of weeks we needed more macro, so we contacted the wonderful Aqua Dive Paradise over on Tulamben and after a few days we took the flight to Bali.</p>
 <p>We did all diving with ADP. </p>
 <div class="gallery"   >
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/8/gallery/2wirecoralshrimp.jpg" ><img src="https://sirdivealot.github.io/media/posts/8/gallery/2wirecoralshrimp-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/8/gallery/anemonefishsoftcorall.jpg" ><img src="https://sirdivealot.github.io/media/posts/8/gallery/anemonefishsoftcorall-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp.jpg" ><img src="https://sirdivealot.com/media/posts/8/gallery/2wirecoralshrimp-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/8/gallery/anemonefishsoftcorall.jpg" ><img src="https://sirdivealot.com/media/posts/8/gallery/anemonefishsoftcorall-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
 </div>
             ]]>
         </content>
@@ -45,20 +45,20 @@
         <author>
             <name>Axel</name>
         </author>
-        <link href="https://sirdivealot.github.io/into-the-blue.html"/>
-        <id>https://sirdivealot.github.io/into-the-blue.html</id>
+        <link href="https://sirdivealot.com/into-the-blue.html"/>
+        <id>https://sirdivealot.com/into-the-blue.html</id>
             <category term="veryfeel"/>
 
         <updated>2018-09-24T20:46:53+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sirdivealot.github.io/media/posts/7/IMG_3523.jpg" alt="" />
+                        <img src="https://sirdivealot.com/media/posts/7/IMG_3523.jpg" alt="" />
                     Instead of spending my weekend working on my Master Thesis I tried&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://sirdivealot.github.io/media/posts/7/IMG_3523.jpg" alt="" />
+                    <img src="https://sirdivealot.com/media/posts/7/IMG_3523.jpg" alt="" />
                 <p>Instead of spending my weekend working on my Master Thesis I tried to learn the ways of Davinci Resolve color grading. The result, a short video:</p>
 <figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/Be1rlmnnOrE" allowfullscreen="allowfullscreen" ></iframe></figure>
             ]]>
@@ -69,39 +69,39 @@
         <author>
             <name>Axel</name>
         </author>
-        <link href="https://sirdivealot.github.io/mabul-2017.html"/>
-        <id>https://sirdivealot.github.io/mabul-2017.html</id>
+        <link href="https://sirdivealot.com/mabul-2017.html"/>
+        <id>https://sirdivealot.com/mabul-2017.html</id>
             <category term="trips"/>
 
         <updated>2019-01-27T00:47:16+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sirdivealot.github.io/media/posts/2/header.jpg" alt="" />
+                        <img src="https://sirdivealot.com/media/posts/2/header.jpg" alt="" />
                     This trip to Mabul was very good and we are very likely&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://sirdivealot.github.io/media/posts/2/header.jpg" alt="" />
+                    <img src="https://sirdivealot.com/media/posts/2/header.jpg" alt="" />
                 <p class="dropcap">This trip to Mabul was very good and we are very likely coming back to the beautiful island of Pulau Mabul. We stayed and did all our diving with Mabul Backpackers - very affordable, decent food and good guides!</p>
 <p class="align-center"><iframe width="560" height="314" src="https://www.youtube.com/embed/a2ugkHw2p2k" allowfullscreen="allowfullscreen" ></iframe></p>
 <p>Most of our diving was done around Pulau Mabul, with some day-trips to Kapalai, and of course Sipadan. During our 3-week stay we booked 5 days of Sipadan diving. It was awesome and we are still very excited about all the footage and photographs we managed to capture. </p>
 <div class="gallery"   >
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_0782.jpeg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_0782-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_0788.jpg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_0788-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_0778.jpeg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_0778-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_1092.jpeg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_1092-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_1286.jpg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_1286-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3538.jpg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3538-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3299.jpeg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3299-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3646.jpeg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3646-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_4171.jpeg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_4171-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3018.jpg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3018-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3871.jpg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3871-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_1706.jpg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_1706-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3544.jpg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3544-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3611.jpg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3611-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3226.jpg" ><img src="https://sirdivealot.github.io/media/posts/2/gallery/IMG_3226-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_0782.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_0782-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_0788.jpg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_0788-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_0778.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_0778-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_1092.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_1092-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_1286.jpg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_1286-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3538.jpg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3538-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3299.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3299-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3646.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3646-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_4171.jpeg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_4171-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3018.jpg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3018-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3871.jpg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3871-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_1706.jpg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_1706-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3544.jpg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3544-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3611.jpg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3611-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://sirdivealot.com/media/posts/2/gallery/IMG_3226.jpg" ><img src="https://sirdivealot.com/media/posts/2/gallery/IMG_3226-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
 </div>
             ]]>
         </content>
@@ -111,20 +111,20 @@
         <author>
             <name>Axel</name>
         </author>
-        <link href="https://sirdivealot.github.io/mimic-octupus.html"/>
-        <id>https://sirdivealot.github.io/mimic-octupus.html</id>
+        <link href="https://sirdivealot.com/mimic-octupus.html"/>
+        <id>https://sirdivealot.com/mimic-octupus.html</id>
             <category term="veryfeel"/>
 
         <updated>2019-01-27T00:00:33+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sirdivealot.github.io/media/posts/1/mimic.jpg" alt="" />
+                        <img src="https://sirdivealot.com/media/posts/1/mimic.jpg" alt="" />
                     Finally found it!
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://sirdivealot.github.io/media/posts/1/mimic.jpg" alt="" />
+                    <img src="https://sirdivealot.com/media/posts/1/mimic.jpg" alt="" />
                 Finally found it!
             ]]>
         </content>
