@@ -3,7 +3,7 @@
     <title>sir dive alot</title>
     <link href="https://sirdivealot.com/feed.xml" rel="self" />
     <link href="https://sirdivealot.com" />
-    <updated>2019-01-27T00:56:32+01:00</updated>
+    <updated>2019-01-27T01:04:40+01:00</updated>
     <author>
         <name>Axel</name>
     </author>
@@ -14,11 +14,12 @@
         <author>
             <name>Kristoffer</name>
         </author>
-        <link href="https://sirdivealot.com/i-make-website.html"/>
-        <id>https://sirdivealot.com/i-make-website.html</id>
+        <link href="https://sirdivealot.com/tulamben-2018.html"/>
+        <id>https://sirdivealot.com/tulamben-2018.html</id>
             <category term="veryfeel"/>
+            <category term="trips"/>
 
-        <updated>2019-01-27T00:24:57+01:00</updated>
+        <updated>2019-01-27T01:04:35+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sirdivealot.com/media/posts/8/butterflyfishes.jpg" alt="" />
